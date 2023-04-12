@@ -1,4 +1,5 @@
 #include <iostream>
+#include "class_oop_021.h"
 using namespace std;
 
 class Mahasiswa {
@@ -47,6 +48,6 @@ void Matakuliah::TampilMk() {
 
 int main()
 {
-	Mahasiswa.mhs;
-	Matakuliah.mk;
-}
+	Mahasiswa mhs;
+	Matakuliah mk;
+

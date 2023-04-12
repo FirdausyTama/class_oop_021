@@ -5,4 +5,16 @@ class Mahasiswa {
 private :
 	int nim;
 	string nama;
+public:
+	void inputdata() {
+		cout << "Masukan Nim : ";
+		cin >> nim;
+		cout << "Masukan Nama : ";
+		cin >> nama;
+	}
+	void tampildata() {
+		cout << "\nNim : " << nim << endl;
+		cout << "Nama : " << nama << endl;
+	}
+
 };

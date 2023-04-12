@@ -20,5 +20,9 @@ public:
 };
 
 class Matakuliah {
+private:
+	string kode;
+	string namamk;
+	int sks;
 
 };
